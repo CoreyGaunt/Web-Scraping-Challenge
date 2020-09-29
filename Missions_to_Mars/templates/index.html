@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Corey's Mission to Mars</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    
+
+    <!-- This will be my jumbotron card that prompts users to scrape data-->
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1 class="display-4">Launch Your Mission</h1>
+            <hr class="my-4">
+            <p style="font-weight: bold; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">The button below will scrape the internet and produce a result to the webpage!</p>
+            <a class="btn btn-primary btn-lg center" href="http://127.0.0.1:5000/scrape" role="button">Lift Off!</a>
+          </div> 
+    </div>
+
+    <!-- This code will populate my news section-->
+    <div class="container-fluid">
+        <div class="row">
+            <h2>{{ mars.news_title }}</h2>
+            <br>
+            <h6>{{ mars.news_paragraph }}</h6>
+        </div>
+    </div>
 </body>
 </html>

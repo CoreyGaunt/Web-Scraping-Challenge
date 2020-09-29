@@ -1,0 +1,13 @@
+body {
+    background-color:  #220901; 
+    color: #f6aa1c;
+}
+
+.jumbotron {
+    background-image: url("https://cdn.theatlantic.com/static/mt/assets/science/0831Pic.jpg");
+    text-align: center;
+}
+
+.my-4 {
+    color:#FFFFFF;
+}
