@@ -12,7 +12,7 @@ collection = db.mars_info
 @app.route("/")
 def index():
    mars = collection.find_one()
-   return render_template("index.html", mars = mars)
+   return render_template("index.html", mars=mars)
 
 @app.route("/scrape")
 def scrape():
