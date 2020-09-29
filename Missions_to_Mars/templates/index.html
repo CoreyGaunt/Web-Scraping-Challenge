@@ -38,13 +38,13 @@
     <div class="container">
         <div class="row">
             <!-- Left Image-->
-            <div class="col-lg-8"style="background-color: #621708;color:#F6AA1C">
+            <div class="col-lg-7"style="background-color: #621708;color:#F6AA1C">
                 <h3>Featured Mars Image</h3>
                 <img src="{{ mars.featured_img }}" style="max-width:100%; max-height: auto;" alt="Scraped Featured Image of Mars">
             </div>
-            <div class="col-lg-4 offset-lg-4"style="background-color: #621708;color:#F6AA1C">
+            <div class="col-lg-5"style="background-color: #621708;color:#F6AA1C">
                 <h3>Mars Facts</h3>
-                    <div style="max-width: 450px; max-height: 150px; font-size: 18px;">
+                    <div style="font-size: 18px;">
                         {{mars.facts|safe}}
                     </div>
             </div>
